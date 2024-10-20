@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.Tugas8" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+    </style>
+
+    <!-- Base theme with ActionBar -->
+    <style name="Base.Theme.Tugas8.WithActionBar" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/blue</item> <!-- Ini adalah warna utama untuk toolbar -->
+        <item name="colorOnPrimary">@color/white</item> <!-- Warna teks pada toolbar -->
+        <item name="actionBarTheme">@style/ThemeOverlay.Material3.ActionBar</item>
+    </style>
+
+    <!-- Theme untuk activity dengan ActionBar -->
+    <style name="Theme.Tugas8.WithActionBar." parent="Base.Theme.Tugas8.WithActionBar" />
+
+    <!-- Theme untuk activity tanpa ActionBar -->
+    <style name="Base.Theme.Tugas8.WithActionBar." parent="Base.Theme.Tugas8" />
+</resources>
